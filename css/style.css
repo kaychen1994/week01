@@ -3,7 +3,7 @@
 }
 
 p,h2,h3,h4{
-    font-family: Microsoft JhengHei;
+    font-family: "Microsoft JhengHei", sans-serif;
 }
 .wrap {
 	max-width: 1920px;
@@ -21,7 +21,6 @@ p,h2,h3,h4{
 }
 .header h2{
     width: 288px;
-    line-height: 90px;
     margin-bottom: 24px;
     font-size: 80px;
 }
@@ -171,7 +170,7 @@ h3:hover{
 .work li p{
     font-size: 20px;
 	line-height: 30px;
-	width: 645px;
+	width: 642px;
 }
 /*Contact*/
 
@@ -188,8 +187,6 @@ h3:hover{
 }
 
 .footerCenter{
-    max-width: 1200px;
-	margin: 0 auto;
     width: 529px;
     display: flex;
     flex-direction: column;
@@ -200,12 +197,19 @@ h3:hover{
     margin-bottom: 30px;
 }
 
-.footerCenter ul li{
+.white{
     font-size: 24px;
     line-height: 36px;
 }
 .contact{
     text-align: center;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+.contact a:hover{
+    color: red;
 }
 .follow{
     width: 192px;
